@@ -185,13 +185,25 @@
 // document.write("<h1>Age Calculator</h1>"+ "<br/>" +"Current Year: " + currentYear + "<br/>" + "Birth Year: " + birthYear + "<br/>" + "Your Age: "+ yourAge )
 
 
+// Answer 12
+
+// var radius = 20;
+// var theArea =  Math.PI* radius *radius;
+// var circumference = + 2* Math.PI* radius ;
+
+// document.write("<h1>The Geometrizer</h1>"+ "<br/>"+ "Radius of a circle: " + radius + "<br/>"+ "The Circumference is: " + circumference+ "<br/>"+ "The Area is: " + theArea)
+    
 
 
 // Answer 13
 
-var favoriteSnack = "Chocolate Chip";
-var currentAge = 15;
-var maxAge = 65;
-var perDay = 3
+// var favouriteSnack = "Chocolate Chip";
+// var currentAge = 15;
+// var maxAge = 65;
+// var perDay = 3
 
-var eatTotal =
+// var eatTotal = (maxAge - currentAge) * perDay
+
+// document.write("<h1>The Lifetime Supply Calculator</h1>"+"<br/>"+"Favourite Snack: " + favouriteSnack +"<br/>"+ "Current Age: " + currentAge +"<br/>"+ "Estimated Maximum: " + maxAge +"<br/> "  + "Amount Of Snack Per Day: " + perDay +"<br/>"+ "You will need " + eatTotal + " " + favouriteSnack+" "+ "to last you until the ripe old oge of " + maxAge) 
+
+
