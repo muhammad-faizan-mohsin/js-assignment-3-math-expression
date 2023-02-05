@@ -207,3 +207,128 @@
 // document.write("<h1>The Lifetime Supply Calculator</h1>"+"<br/>"+"Favourite Snack: " + favouriteSnack +"<br/>"+ "Current Age: " + currentAge +"<br/>"+ "Estimated Maximum: " + maxAge +"<br/> "  + "Amount Of Snack Per Day: " + perDay +"<br/>"+ "You will need " + eatTotal + " " + favouriteSnack+" "+ "to last you until the ripe old oge of " + maxAge) 
 
 
+// Exercise no 2
+
+// ans no 1
+
+// var a = 10;
+
+// document.write("Result:" + "<br />")
+// document.write("the value of a is: " + a + "<br />" +"<br />")
+
+// a = ++a 
+// document.write("the value of ++a is: " + a + "<br />")
+// document.write("Now the value is: " + a + "<br />" +"<br />")
+
+
+// a2 = a++ 
+// document.write("the value of a++ is: " + a2 + "<br />")
+// document.write("Now the value is: " + a+ "<br />" +"<br />")
+
+// a3 = --a
+// document.write("the value of --a is: " + a3 + "<br />")
+// document.write("Now the value is: " + a + "<br />" +"<br />")
+
+// a4 = a--
+// document.write("the value of a-- is: " + a4 + "<br />")
+// document.write("Now the value is: " + a + "<br />" +"<br />")
+
+
+// ans no 2
+
+// var a = 2, b = 1;
+// var result = --a - --b + ++b + b--;
+
+// document.write("a is = "+a +"<br />" + "b is = "+b+"<br />"  + "result  is = "+result)
+
+
+
+// ans no 3
+
+// var a = prompt("Enter Your Name")
+// document.write("hi "+ a + " how are you!!")
+// ans no 5
+
+// var num = prompt("enter Table num")
+
+
+// if(num === ""){
+// num = 5
+
+// }
+// var table = num * 1 
+
+// document.write(num +  " X " + 1 +" = "+ table + "<br />")
+
+
+// var table = num * 2 
+
+// document.write(num +  " X " + 2 +" = "+ table + "<br />")
+
+
+
+// var table = num * 3
+
+// document.write(num +  " X " + 3 +" = "+ table + "<br />")
+
+
+
+// var table = num * 4 
+
+// document.write(num +  " X " + 4 +" = "+ table + "<br />")
+
+
+
+// var table = num * 5 
+
+// document.write(num +  " X " + 5 +" = "+ table + "<br />")
+
+
+
+// var table = num * 6 
+
+// document.write(num +  " X " + 6 +" = "+ table + "<br />")
+
+
+// var table = num * 7 
+// document.write(num +  " X " + 7 +" = "+ table + "<br />")
+
+
+// var table = num * 8 
+
+// document.write(num +  " X " + 8 +" = "+ table + "<br />")
+
+
+// var table = num * 9 
+
+// document.write(num +  " X " + 9 +" = "+ table + "<br />")
+
+// var table = num * 10 
+
+// document.write(num +  " X " + 10 +" = "+ table + "<br />")
+
+
+
+// answer 6
+
+var sub1 = prompt("Enter Subject no 1");
+var marks1 = +prompt("Enter subject no 1 Marks");
+
+var sub2 = prompt("Enter Subject no 2");
+var marks2 = +prompt("Enter subject no 2 Marks");
+
+var sub3 =prompt("Enter Subject no 3");
+var marks3 = +prompt("Enter subject no 3 Marks");
+
+var resultInNum = marks1 + marks2 + marks3;
+
+var totalMarks = 300;
+var percentage = resultInNum / totalMarks * 100
+{/* <th>Obtained Marks</th> <th>Percentage</th> */}
+
+
+document.write("<tr><th>Subject </th><th>Total</th> <th> marks obtained </th><th> marks percentage</th></tr>" + "<br />" )
+document.write("<tr><td>" + sub1 +" </td><td> "+ marks1+" </td></tr>" + "<br />")
+document.write("<tr><td>" + sub2 +" </td><td> "+ marks2+" </td></tr>" + "<br />")
+document.write("<tr><td>" + sub3 +" </td><td> "+ marks3+" </td></tr>" + "<br />")
+document.write("<tr><td> "+totalMarks+ " </td><td> "+resultInNum + " </td><td> "+ percentage )
